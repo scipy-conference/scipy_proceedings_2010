@@ -40,95 +40,87 @@ Theano: A CPU and GPU Math Compiler in Python
 
 .. class:: abstract
 
-
-    *Theano is a compiler for mathematical expressions in Python. It combines the convenience of NumPy with the speed of optimized native machine language.
-    The user composes mathematical expressions in a high-level
-    description that mimics NumPy's syntax and semantics, while being statically typed and purely functional.
-    Theano optimizes the expression, translates the optimized expression into C/C++, and runs an optimizing compiler on the C/C++ code, all automatically.
-    Theano can also generate CUDA code to produce GPU implementations for those high-level description.
+    *Theano is a compiler for mathematical expressions in Python that
+    successfully combines the convenience of NumPy's syntax with the speed
+    of optimized native machine language. It manages to do so by
+    manupilating the symbolic graph that the user provides, using 
+    a library of graph transformation heuristics for improving 
+    computation speed and stability. The optmized graph gets
+    translated into C/C++ or CUDA transperently.
     Common machine learning algorithms implemented with Theano
-    are from* :math:`$1.6\times$` *to* :math:`$7.5\times$` *faster than competitive alternatives (including those implemented with C/C++, NumPy/SciPy
-    and Matlab) when compiled for the CPU
-    and between* :math:`$6.5\times$` *and* :math:`$44\times$` *faster when compiled for the GPU.
-    Theano's speed comes from optimizations at a high level of granularity, namely over the symbolic graph representing a complicated mathematical expression.
-    Theano's speed on GPUs, in particular, is owed to its ability to generate custom-made CUDA kernels for many important
-    mathematical operations.
-    Theano uses a library of graph transformation
-    heuristics to optimize expression graphs for fast and
-    numerically stable computation.
-    Theano has been designed to hide the implementation details of a variety of backend technologies.
-    With a single line of code, expressions in Theano can be automatically differentiated. These derivative expressions are also compiled by Theano.
-    This paper illustrates how to use
-    Theano, outlines the scope of the compiler,
-    provides benchmarks on both CPU and GPU processors, and explains its overall design.
+    are from* :math:`$1.6\times$` *to* :math:`$7.5\times$` *faster
+    than competitive alternatives (including those implemented with
+    C/C++, NumPy/SciPy and Matlab) when compiled for the CPU
+    and between* :math:`$6.5\times$` *and* :math:`$44\times$` *faster
+    when compiled for the GPU. Theano provides automatic differentiation
+    and is optimal for hiding implementation details of a variety of 
+    backend technologies. This paper illustrates how to use
+    Theano, outlines the scope of the compiler, provides benchmarks
+    on both CPU and GPU processors, and explains its overall design.
     Theano development and use began in January 2008.*
-
 
 
 Introduction
 ------------
 
 Python is a powerful and flexible language for describing large-scale mathematical
-calculations in a high level way,
-but the Python interpreter is in many cases a poor engine for executing them. Python
-numeric scalars are full-fledged objects on the heap, but large-scale mathematical
-calculations should be carried out using a processor's native types with minimal overhead.
-There are several options available to a Python programmer to get the speed
-of native machine-language code for numerical calculations, including [NumPy]_, [numexpr]_, [Cython]_, and [scipy.weave]_.
+calculations, but the Python interpreter is in many cases a poor engine for executing
+them. One reason is that Python uses full-fledged objects on the heap to
+represent numeric scalars instead of processor's native types which have a
+minimal overhead. To overcome these limitantions there are several tools 
+available for numerical calculations, including [NumPy]_, [numexpr]_, [Cython]_,
+and [scipy.weave]_.
+
 [NumPy]_ provides an N-dimensional array data type, and many functions
-for indexing, reshaping, and performing elementary computations (``exp``, ``log``, ``sin``, etc.)
-on entire arrays at once. These functions are implemented in C for use within Python programs.
-However, the composition of many such NumPy functions
-can be unnecessarily slow when each call is dominated by the cost of transferring memory rather than the cost of performing calculations [Alted]_.
-As a partial solution, [numexpr]_ provides faster implementations than NumPy when
-several elementwise computations are composed by implementing a loop fusion optimization.
-However,
-numexpr requires unusual syntax (the expression must be encoded as a string within the code),
-and is limited to elementwise computations.
-In many use-cases, hand-written native machine language implementations are
-still much faster than common alternatives.  [Cython]_ and [scipy.weave]_ make
-it easy to rewrite the crucial bottlenecks in C. However, if the bottleneck is
-a large mathematical expression comprising hundreds of operations, manual
+for indexing, reshaping, and performing elementary computations (``exp``, ``log``,
+``sin``, etc.) on entire arrays at once. These functions are implemented in C for
+use within Python programs. However, the composition of many such NumPy functions
+can be unnecessarily slow when each call is dominated by the cost of transferring
+memory rather than the cost of performing calculations [Alted]_.
+[numexpr]_ goes one step further by providing a loop fusion optimization
+that can glue several elementwise computations together. The syntax required
+by numexpr is a bit unusual (the expression must be encoded as a string
+within the code), and it is limited to elementwise computations.
+[Cython]_ and [scipy.weave]_ offer a simple way to hand-write crucial segments
+of code into C. Unfortunately if the bottlenec is a large 
+mathematical expression comprising hundreds of operations, manual
 optimization of the math can be time-consuming and suboptimal compared to
 automatic optimization.
 
-Theano combines the convenience of NumPy with the speed of hand-optimized C/C++
-code by generating and compiling native implementations from a complete,
-high-level description of the computation graph, which it optimizes before
-translating it into C/C++ code.  Our benchmarks demonstrate that this can lead
-to significant performance gains over competing math libraries.  Theano is
-capable of generating CPU as well as GPU implementations (the latter using
-CUDA) without requiring changes to user code.
-It supports full program transformations and macros
-including automatic differentiation.
-It also performs local graph transformations that correct many unnecessary, slow, or numerically unstable
-expression patterns.
-This pattern is appropriate in scenarios where the same computation will be repeated many times on different inputs,
-such that the time invested in the initial optimization and compilation (typically on the order of seconds) is
-negligible in comparison to the time saved on the repeated calculations.
-Theano is similar to [SymPy]_, in that both manipulate symbolic
+Theano on the other hand works on a symbolic representation of the
+mathematical expressions, provided by the user through a simple syntax
+that mimcs Numpy. Having access to a computational graph, Theano can 
+provide automatic differentiation of complex expressions, but more
+importantly, it can perform local graph trasnformations that corrects
+many unnecessary, slow or numerically unstable expression patterns.
+Once optimized, the graph can be used to generate CPU as well as GPU 
+implementations ( the latter using CUDA) without requireing changes to 
+user code. 
+
+It is similar to [SymPy]_, in that both libraries manipulate symbolic
 mathematical graphs, but the two projects have a distinctly different focus.
 While SymPy implements a richer set of mathematical operations of the kind
 expected in a modern computer algebra system, Theano focuses on fast, efficient
 evaluation of primarily array-valued expressions.
 
 Theano is free open source software, licensed under the New (3-clause) BSD license.
-It depends upon NumPy, and can optionally use SciPy, as well as custom C and CUDA code generators which are able to specialize for particular types, sizes, and shapes of inputs. 
-Theano can be extended to use ``scipy.weave``, PyCUDA, Cython, and other
-numerical libraries and compilation technologies.
-Theano has been actively and continuously developed and used since January 2008.
-It has been used in
-several scientific papers and it is used to teach machine learning in
-graduate courses at the Université de Montréal.
+It depends upon NumPy, and can optionally use SciPy, as well as custom C and CUDA code
+generators which are able to specialize for particular types, sizes, and shapes of
+inputs. It can be extended to use ``scipy.weave``, PyCUDA, Cython, and other
+numerical libraries and compilation technologies. Theano has been actively and
+continuously developed and used since January 2008.
+It has been used in several scientific papers and it is used to teach machine
+learning in graduate courses at the Université de Montréal.
 Documentation and installation instructions can be found on Theano's website [theano]_.
 All Theano users should subscribe to the
-`announce <http://groups.google.com/group/theano-announce>`_ [#]_ mailing list (low traffic).
-There are medium traffic mailing lists for `developer discussion <http://groups.google.com/group/theano-dev>`_ [#]_ and `user support <http://groups.google.com/group/theano-users>`_ [#]_.
+`announce <http://groups.google.com/group/theano-announce>`_ [#]_ mailing list
+(low traffic). There are medium traffic mailing lists for
+`developer discussion <http://groups.google.com/group/theano-dev>`_ [#]_
+and `user support <http://groups.google.com/group/theano-users>`_ [#]_.
 
 This paper is divided as follows:
 Section `Case Study: Logistic Regression`_ shows how Theano can be used to solve
 a simple problem in statistical prediction.
-GPU use, and some of the expression transformations Theano performs.
 Section `Benchmarking Results`_ presents some results of performance
 benchmarking on problems related to machine learning and expression evaluation.
 Section `What's in Theano`_ gives an overview of the design of Theano.
@@ -152,7 +144,8 @@ Binary logistic regression is a classification model
 parametrized by a weight matrix :math:`W` and
 bias vector :math:`b`.
 The model estimates the probability
-:math:`$P(Y=1|x)$` (which we will denote with shorthand :math:`$p$`) that the input `x` belongs to class `y=1` as:
+:math:`$P(Y=1|x)$` (which we will denote with shorthand :math:`$p$`) that the input
+`x` belongs to class `y=1` as:
 
 .. raw:: latex
 
