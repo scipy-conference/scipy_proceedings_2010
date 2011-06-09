@@ -275,7 +275,7 @@ convention was adopted to help these classes stand out due to their peculiar
 use in the classification definitions.  
 
 PHU Requirements:
-_________________
+~~~~~~~~~~~~~~~~~
 
 The PHU class is a Requirement subclass which ultimately is the workhorse of
 the system. Classifications generally resolve to sets of PHU header checks,
@@ -287,7 +287,7 @@ modifiers to prohibit the specified match or to use regular expressions for
 matching keys as well as values.
 
 ISCLASS Requirements:
-_____________________
+~~~~~~~~~~~~~~~~~~~~~
 
 ISCLASS in this example is a Requirement subclass which checks that the dataset
 in question is also the type named in the ISCLASS constructor argument.  No
@@ -316,7 +316,7 @@ the GMOS assignments.  Instead, GMOS overrides the instrument-agnostic GEMINI
 type, which is therefore given as its explicit parent.
 
 Logical Requirements:
-_____________________
+~~~~~~~~~~~~~~~~~~~~~
 
 Three Requirement subclasses execute logical operations to combine other
 requirements, AND, OR, and NOT. These each override the "&", "|", and "!"
@@ -325,7 +325,7 @@ list of requirements to combine logically, though they will, again for
 convienience, roll the list from arguments.
 
 Adding New Requirements:
-________________________
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 This general arrangement allows easy addition of other types of requirement
 classes. We know, for example, that for some types we must detect we will have
@@ -358,38 +358,30 @@ appear in reduction scripts at Gemini::
     >>> ad.isType("GMOS_IMAGE")
     True
 
-
 This saves lines in scripts but more importantly, it centralizes the type
 checking heuristics.
 
 Gemini Types Trees:
-___________________
+~~~~~~~~~~~~~~~~~~~
 
 The following is a simple type tree for our NIFS instrument (Near-Infrared
 Integral Field Spectrometer). It is an example of a minimalist type tree, which
 covers only the instrument and its general IMAGE and SPECT modes.
 
 .. figure:: NIFS-tree.png
-   :scale: 50
    
-   **Figure 2**: *NIFS Type Tree Figure* A minimal type tree for the 
-   NIFS instrument: One each to identify 
-   the Instrument
-   itself, 
-   its imaging and spectroscopic mode, as well as the general GEMINI 
-   type which acts as NIFS' parent type.
+   *NIFS Type Tree* A minimal type tree for the NIFS instrument: One each to
+   identify the Instrument itself, its imaging and spectroscopic mode, as well
+   as the general GEMINI type which acts as NIFS' parent type. :label:`nifs-tree`
 
-The text and detail in *Figure 3* below will be difficult to read, but I have
-included it to shows a more complete tree of types, in this case for GMOS, the
-Gemini Multi-Object Spectrometer.
+The text and detail in Figure :ref:`gmos-tree` will be difficult to read, but I
+have included it to shows a more complete tree of types, in this case for GMOS,
+the Gemini Multi-Object Spectrometer.
 
 .. figure:: GMOS-tree.png
-   :scale: 100
    
-   
-   **Figure 3**: *GMOS Type Tree* This is a fully defined type tree,
-   taken from the Gemini AstroData Type Library, the
-   GMOS instrument tree,.
+   *GMOS Type Tree* This is a fully defined type tree, taken from the Gemini
+   AstroData Type Library, the GMOS instrument tree,. :label:`gmos-tree`
   
 
 AstroData Descriptors
@@ -414,11 +406,9 @@ classifications. Still the code can and will get convoluted if the different
 types rely on very different methods to return the information.
 
 .. figure:: NIFS-tree-pd.png
-   :scale: 50
 
-   **Figure 4**: *NIFS Type Tree* The simple NIFS type tree showing 
-   which type has the Descriptor calculator
-   assigned.
+   *NIFS Type Tree* The simple NIFS type tree showing which type has the
+   Descriptor calculator assigned.
 
 If a particular instrument-mode requires a special calculation, and if the
 developers do not  want to complicate the more generic code, then another
@@ -463,11 +453,10 @@ parameters.  These thunk functions call the appropriate descriptor in the
 calculator.
 
 .. figure:: calculatorinterface.png
-   :scale: 95
    
-   **Figure 5**: *Descriptor Calls*: The Descriptors are called as members of
-   type-specific Descriptor Calculators through the type-agnostic Calculator
-   Interface, which is melded into AstroData via metaprogramming techniques. 
+   *Descriptor Calls*: The Descriptors are called as members of type-specific
+   Descriptor Calculators through the type-agnostic Calculator Interface, which
+   is melded into AstroData via metaprogramming techniques. 
  
 Examples
 ========
@@ -693,7 +682,7 @@ astrodata
       as in a title or description, e.g. "The Astrodata Package can be imported
       using the name, 'astrodata'".
 
-    Note, it's a subtle distinction, and probably best to rely primarilly on
+    Note, it's a subtle distinction, and probably best to rely primarily on
     context to know which sense was intended. 
        
 HDU
