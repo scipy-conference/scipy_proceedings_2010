@@ -1,10 +1,10 @@
-:author: Jarrod Millman
-:email: millman@berkeley.edu
-:institution: UC Berkeley
-
 :author: Stéfan van der Walt
 :email: svjdwalt@gmail.com
 :institution: Stellenbosch University
+
+:author: Jarrod Millman
+:email: millman@berkeley.edu
+:institution: UC Berkeley
 
 ---------
 Editorial
