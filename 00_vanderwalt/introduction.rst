@@ -1,5 +1,5 @@
 :author: Stéfan van der Walt
-:email: svjdwalt@gmail.com
+:email: stefan@sun.ac.za
 :institution: Stellenbosch University
 
 :author: Jarrod Millman
@@ -10,14 +10,9 @@
 Editorial
 ---------
 
-.. class:: abstract
-
-    A short version of the long version that is way too long to be written as a
-    short version anyway.
-
 .. class:: keywords
 
-    Python, Scientific Computing.
+    Python, Scientific Computing
 
 Introduction
 ------------
