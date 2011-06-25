@@ -17,45 +17,44 @@ Editorial
 Introduction
 ------------
 
-- 3rd proceedings and 9th US conference
-- # of attendees
+Welcome to the proceedings of the 9th Python in Science conference
+(SciPy2010), held in Austin, Texas from ... to ... 2009.  This year's
+conference was attended by ... participants from both academia and
+industry, and it gives us great pleasure to publish select papers
+here.
 
-- history
+Since its inception, the conference was held at the California
+Institute of Technology, but with Enthought taking a leading role in
+its organisation, it made sense to move it to Austin, Texas.  We thank
+our colleagues and co-organisers at CalTech for all their support and
+effort over the past 7 years, and for playing such an integral part in
+establishing this event.
 
-  - 10th US conference coming up
-  - Europe and India, hopefully more
+What started as a small, informal meeting has now become a world-wide
+series of conferences, with EuroSciPy held in ... from ... to ..., as
+well as SciPy India in Hyderabad from .. to ....
 
-- move to Texas after being at Caltech for many years
+This is the third publication of a SciPy conference proceedings.  The
+aim the proceedings is to increase the visibility of the conference
+and the presented work, and to provide academic recognition of the
+significant contributions made by the developers of software for
+science and engineering.
 
-- delay due to improved review criteria (discussed below)
-  and a new build system
-
-The purpose of the conference proceedings is to increase the
-visibility of the conference and the presented work, as well as to
-provide academic recognition of the significant contributions made by
-the developers of software for science and engineering. To ensure the
-published proceedings are of sufficiently high quality, we have have
-instituted a formal review process in which each paper will be
+To ensure the published proceedings are of sufficiently high quality,
+we have have instituted a formal review process in which each paper is
 reviewed by at least two reviewers according to explicit and uniform
-criteria.
+criteria.  To ensure transparency, all reviews are made public. A more
+detailed description of the process is given below.
 
-The primary goal of the review process is to provide independent
-feedback that guide authors in improving their papers. To review a
-paper, please complete the attached review form for each article you
-review.
-
-Stefan rewrote the proceedings
-build system from scratch. The code is now much smaller and cleaner.
-We have also been able to develop much better infrastructure and
-several improvements to streamline the process going forward. You can
-access the complete build system including the original restructured
-text manuscripts here:
-
- https://github.com/scipy/proceedings-2010
-
-- open review process
-
-All reviews are made public including the reviewer's name. 
+The editors would like to apologise for the late publication of this
+year's proceedings, mainly due to the significant time invested in
+rewriting the publication framework.  The new framework allows us to
+publish future editions much more rapidly, as witnessed by the 2010
+and 2011 proceedings seeing the light almost simultaneously.  The
+tools used to produce this document are made available under an open
+source license, and may be obtained from the code repository at
+`https://github.com/scipy/scipy-proceedings
+</usr/share/doc/texlive-doc/latex/beamerposter/example.tex>`__.
 
 New Directions
 --------------
