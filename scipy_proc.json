@@ -28,15 +28,15 @@
                 {"name": "C. Titus Brown",
                  "org": "Computer Science and Biology, Michigan State, USA"},
                 {"name": "Robert Cimrman",
-                 "org": "Department of Mechanics and New Technologies Research, University of West Bohemia, Plzeň, Czech Republic"},
+                 "org": "Mechanics and New Technologies Research, University of West Bohemia, Plzeň, Czech Republic"},
                 {"name": "David Cournapeau",
                  "org": "School of Informatics, Kyoto University, Japan"},
                 {"name": "Darren Dale",
                  "org": "Cornell High Energy Synchrotron Source, Cornell University, USA"},
                 {"name": "Fernando Perez",
-                 "org": "Helen Wills Neuroscience Institute, UC Berkeley, USA"},
+                 "org": "Neuroscience Institute, UC Berkeley, USA"},
                 {"name": "Prabhu Ramachandran",
-                 "org": "Department of Aerospace Engineering, IIT Bombay, India"},
+                 "org": "Aerospace Engineering, IIT Bombay, India"},
                 {"name": "James Turner",
                  "org": "Gemini Observatory, Chile"},
                 {"name": "Warren Weckesser",
@@ -48,7 +48,7 @@
             "name": "Tutorial Chair",
             "members": [
                 {"name": "Brian Granger", 
-                 "org": "Physics Department, CalPoly, USA"}
+                 "org": "Physics, CalPoly, USA"}
                 ]
         },
 
@@ -74,7 +74,7 @@
                 {"name": "Ken Elkabany",
                  "org": "PiCloud, USA"},
                 {"name": "Brian Granger", 
-                 "org": "Physics Department, CalPoly, USA"}
+                 "org": "Physics, CalPoly, USA"}
                 ]
         },
 
@@ -86,7 +86,7 @@
                 {"name": "C. Titus Brown",
                  "org": "Computer Science and Biology, Michigan State, USA"},
                 {"name": "Damian Eads",
-                 "org": "Department of Computer Science, UC Santa Cruz, USA"},
+                 "org": "Computer Science, UC Santa Cruz, USA"},
                 {"name": "Ralf Gommers",
                  "org": "Healthcare Department, Philips Research Asia, Shanghai, China"},
                 {"name": "Emmanuelle Gouillart",
@@ -100,9 +100,9 @@
                 {"name": "Emanuele Olivetti",
                  "org": "NeuroInformatics Laboratory, Bruno Kessler Foundation and University of Trento, Italy"},
                 {"name": "Dag Sverre Seljebotn",
-                 "org": "Institute of Theoretical Astrophysics, University of Oslo, Norway"},
+                 "org": "Theoretical Astrophysics, University of Oslo, Norway"},
                 {"name": "Andrew Straw",
-                 "org": "Insitute of Molecular Pathology, Austria"},
+                 "org": "Molecular Pathology, Austria"},
                 {"name": "James Turner",
                  "org": "Data Processing Software Group, Gemini Observatory, Chile"}
                 ]
