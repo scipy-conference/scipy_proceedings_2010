@@ -6,9 +6,9 @@
 :email: johnv@nuc.berkeley.edu
 :institution: UC Berkeley
 
-========================================================================================================
-A Programmatic Interface for Particle Plasma Simulation in Python, and Early Backend Results with PyCUDA
-========================================================================================================
+=================================================================
+A Programmatic Interface for Particle Plasma Simulation in Python
+=================================================================
 
 .. class:: abstract
 
