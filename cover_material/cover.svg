@@ -32,9 +32,9 @@
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1280"
-     inkscape:window-height="722"
+     inkscape:window-height="746"
      inkscape:window-x="0"
-     inkscape:window-y="24"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -52,7 +52,8 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-62.362183)">
+     transform="translate(0,-62.362183)"
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Garuda;-inkscape-font-specification:Garuda"
@@ -98,23 +99,20 @@
          y="945.30469"
          id="tspan3120"
          style="font-style:normal;text-align:end;text-anchor:end">Jarrod Millman</tspan></text>
-    <g
-       id="g3861"
-       transform="translate(-14.82917,0)">
-      <image
-         width="633.26361"
-         height="148.3053"
-         xlink:href="file:///home/stefan/akad/projekte/scipy_proceedings/cover_material/logo.jpg"
-         id="image3086"
-         x="77.369675"
-         y="189.48244" />
-      <rect
-         y="311.47589"
-         x="64.649757"
-         height="34.910873"
-         width="650.37659"
-         id="rect3091"
-         style="fill:#ffffff;fill-opacity:1;stroke:none" />
-    </g>
+    <image
+       sodipodi:absref="/home/jarrod/src/proceedings/scipy_proceedings/cover_material/cover_material/logo.jpg"
+       xlink:href="cover_material/logo.jpg"
+       width="633.26361"
+       height="148.3053"
+       id="image3086"
+       x="62.540504"
+       y="189.48244" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3091"
+       width="650.37659"
+       height="34.910873"
+       x="49.820587"
+       y="311.47589" />
   </g>
 </svg>
