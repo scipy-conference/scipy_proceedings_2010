@@ -27,7 +27,7 @@
 
 
 ----------------------------------------------------------------
-SpacePy - A Python-based library of tools for the space sciences
+SpacePy - A Python-based Library of Tools for the Space Sciences
 ----------------------------------------------------------------
 
 .. class:: abstract

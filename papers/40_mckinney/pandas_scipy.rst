@@ -3,7 +3,7 @@
 :institution: AQR Capital Management, LLC
 
 ---------------------------------------------------
-Data structures for statistical computing in Python
+Data Structures for Statistical Computing in Python
 ---------------------------------------------------
 
 .. class:: abstract

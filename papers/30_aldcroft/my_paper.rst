@@ -3,7 +3,7 @@
 :institution: Smithsonian Astrophysical Observatory
 
 ------------------------------------------------
-Keeping the Chandra satellite cool with Python
+Keeping the Chandra Satellite Cool with Python
 ------------------------------------------------
 
 .. class:: abstract

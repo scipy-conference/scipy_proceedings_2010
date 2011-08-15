@@ -11,7 +11,7 @@
 :institution: Berea College
 
 ------------------------------------------------
-Modeling Sudoku puzzles with Python
+Modeling Sudoku Puzzles with Python
 ------------------------------------------------
 
 .. class:: abstract

@@ -8,7 +8,7 @@
 
 
 --------------------------------------------------------------
-PySPH: A Python framework for smoothed particle hydrodynamics 
+PySPH: A Python Framework for Smoothed Particle Hydrodynamics 
 --------------------------------------------------------------
 
 .. class:: abstract 
