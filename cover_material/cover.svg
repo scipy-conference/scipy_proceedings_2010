@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.38669902"
-     inkscape:cx="654.65748"
-     inkscape:cy="390.92122"
+     inkscape:cx="322.29137"
+     inkscape:cy="524.6576"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -53,13 +53,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-62.362183)">
-    <image
-       y="182.00916"
-       x="91.590698"
-       id="image3047"
-       xlink:href="file:///home/stefan/akad/projekte/scipy_proceedings/cover_material/scipy2011_logo.jpg"
-       height="161.02304"
-       width="560.91309" />
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Garuda;-inkscape-font-specification:Garuda"
@@ -71,7 +64,7 @@
          x="374.02548"
          y="433.46689"
          id="tspan3054"
-         style="font-size:38px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Verdana;-inkscape-font-specification:Verdana">Proceedings of the 10th</tspan><tspan
+         style="font-size:38px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Verdana;-inkscape-font-specification:Verdana">Proceedings of the 9th</tspan><tspan
          sodipodi:role="line"
          x="374.02548"
          y="480.96689"
@@ -80,14 +73,14 @@
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
-       x="214.32724"
+       x="190.53818"
        y="573.95392"
        id="text3060"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="214.32724"
+         x="190.53818"
          y="573.95392"
-         id="tspan3068">July 11–16 • Austin, Texas</tspan></text>
+         id="tspan3068">June 28–July 4 • Austin, Texas</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Verdana;-inkscape-font-specification:Verdana"
@@ -105,5 +98,23 @@
          y="945.30469"
          id="tspan3120"
          style="font-style:normal;text-align:end;text-anchor:end">Jarrod Millman</tspan></text>
+    <g
+       id="g3861"
+       transform="translate(-14.82917,0)">
+      <image
+         width="633.26361"
+         height="148.3053"
+         xlink:href="file:///home/stefan/akad/projekte/scipy_proceedings/cover_material/logo.jpg"
+         id="image3086"
+         x="77.369675"
+         y="189.48244" />
+      <rect
+         y="311.47589"
+         x="64.649757"
+         height="34.910873"
+         width="650.37659"
+         id="rect3091"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+    </g>
   </g>
 </svg>
