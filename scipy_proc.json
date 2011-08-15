@@ -5,21 +5,122 @@
         {
             "name": "Conference Chairs",
             "members": [
+                {"name": "Eric Jones",
+                 "org": "Enthought, Inc., USA"},
                 {"name": "Jarrod Millman",
-                 "org": "UC Berkeley"},
-                {"name": "Travis Oliphant",
-                 "org": "Enthought, Inc."}
+                 "org": "Neuroscience Institute, UC Berkeley, USA"}
                 ]
         },
   
         {
-            "name": "Program Chairs",
+            "name": "Program Chair",
             "members": [
                 {"name": "Stéfan van der Walt",
-                 "org": "Applied Mathematics, Stellenbosch University"},
-                {"name": "Someone else",
-                 "org": "Some company"}
+                 "org": "Applied Mathematics, Stellenbosch University, South Africa"}
+                ]
+        },
+
+        {
+            "name": "Program Committee",
+            "members": [
+                {"name": "Christopher Barker",
+                 "org": "Oceanographer, NOAA Emergency Response Division, USA"},
+                {"name": "C. Titus Brown",
+                 "org": "Computer Science and Biology, Michigan State, USA"},
+                {"name": "Robert Cimrman",
+                 "org": "Department of Mechanics and New Technologies Research, University of West Bohemia, Plzeň, Czech Republic"},
+                {"name": "David Cournapeau",
+                 "org": "School of Informatics, Kyoto University, Japan"},
+                {"name": "Darren Dale",
+                 "org": "Cornell High Energy Synchrotron Source, Cornell University, USA"},
+                {"name": "Fernando Perez",
+                 "org": "Helen Wills Neuroscience Institute, UC Berkeley, USA"},
+                {"name": "Prabhu Ramachandran",
+                 "org": "Department of Aerospace Engineering, IIT Bombay, India"},
+                {"name": "James Turner",
+                 "org": "Gemini Observatory, Chile"},
+                {"name": "Warren Weckesser",
+                 "org": "Enthought, Inc., USA"}
+                ]
+        },
+
+        {
+            "name": "Tutorial Chair",
+            "members": [
+                {"name": "Brian Granger", 
+                 "org": "Physics Department, CalPoly, USA"}
+                ]
+        },
+
+        {
+            "name": "Student Sponsorship Chair",
+            "members": [
+                {"name": "Travis Oliphant",
+                 "org": "Enthought, Inc., USA"}
+                ]
+        },
+
+        {
+            "name": "Biomedical/Bioinformatics Track Chair",
+            "members": [
+                {"name": "Glen Otero",
+                 "org": "Dell, USA"}
+                ]
+        },
+
+        {
+            "name": "Parallel Processing/Cloud Computing Track Chairs",
+            "members": [
+                {"name": "Ken Elkabany",
+                 "org": "PiCloud, USA"},
+                {"name": "Brian Granger", 
+                 "org": "Physics Department, CalPoly, USA"}
+                ]
+        },
+
+        {
+            "name": "Proceedings Reviewers",
+            "members": [
+                {"name": "Matthew Brett",
+                 "org": "Neuroscience Institute, UC Berkeley, USA"},
+                {"name": "C. Titus Brown",
+                 "org": "Computer Science and Biology, Michigan State, USA"},
+                {"name": "Damian Eads",
+                 "org": "Department of Computer Science, UC Santa Cruz, USA"},
+                {"name": "Ralf Gommers",
+                 "org": "Healthcare Department, Philips Research Asia, Shanghai, China"},
+                {"name": "Emmanuelle Gouillart",
+                 "org": "CNRS Saint Gobain, France"},
+                {"name": "Yaroslav O. Halchenko",
+                 "org": "PBS Department, Dartmouth College"},
+                {"name": "Josh Hemann",
+                 "org": "Marketing Analytics and Business Strategy, Sports Authority, USA"},
+                {"name": "Neil Muller",
+                 "org": "Applied Mathematics, University of Stellenbosch, South Africa"},
+                {"name": "Emanuele Olivetti",
+                 "org": "NeuroInformatics Laboratory, Bruno Kessler Foundation and University of Trento, Italy"},
+                {"name": "Dag Sverre Seljebotn",
+                 "org": "Institute of Theoretical Astrophysics, University of Oslo, Norway"},
+                {"name": "Andrew Straw",
+                 "org": "Insitute of Molecular Pathology, Austria"},
+                {"name": "James Turner",
+                 "org": "Data Processing Software Group, Gemini Observatory, Chile"}
+                ]
+        },
+
+
+        {
+            "name": "Program Staff",
+            "members": [
+                {"name": "Amenity Applewhite",
+                 "org": "Enthought, Inc., USA"},
+                {"name": "Jodi Havranek",
+                 "org": "Enthought, Inc., USA"},
+                {"name": "Leah Jones",
+                 "org": "Enthought, Inc., USA"}
                 ]
         }
+
+
     ]
 }
