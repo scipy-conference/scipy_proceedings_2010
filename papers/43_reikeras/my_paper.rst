@@ -9,7 +9,7 @@
 :email: herbst@sun.ac.za
 :institution: Stellenbosch University
 
-:author: Johan Du Preez
+:author: Johan du Preez
 :email: dupreez@sun.ac.za
 :institution: Stellenbosch University
 
