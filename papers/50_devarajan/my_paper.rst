@@ -26,9 +26,9 @@
     
     Princeton University.
 
-------------------------------------------------
-Unusual Relationships : Python and Weaver Birds
-------------------------------------------------
+-----------------------------------------------
+Unusual Relationships: Python and Weaver Birds
+-----------------------------------------------
 
 .. class:: abstract
 
