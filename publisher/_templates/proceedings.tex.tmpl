@@ -25,7 +25,7 @@
 
 \begin{document}
 
-\includepdf{cover.pdf}
+\includepdf{title.pdf}
 \includepdf[pages=-,openright]{copyright.pdf}
 \includepdf[pages=-,openright]{organization.pdf}
 
@@ -35,11 +35,10 @@
 {{for line in toc}}
 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \textsf{\hyperlink{%
-{{line['dir']}}/paper.pdf.1}{%
+  \textsf{\hyperlink{../pdfs/{{line['paper_id']}}.pdf.1}{%
 {{line['title']}}}%
   \hfill%
-  \textbf{ {{line['page']}} }%
+  \textbf{ {{line['page']['start']}} }%
   \\%
 \small\textit{%
 \parbox{0.9\textwidth}{
@@ -53,8 +52,7 @@
 
 {{for line in toc}}
 
-\includepdf[pages=-,link]{%
-{{line['dir']}}/paper.pdf}
+\includepdf[pages=-,link]{../pdfs/{{line['paper_id']}}.pdf}
 
 {{endfor}}
 
