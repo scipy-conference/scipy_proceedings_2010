@@ -17,6 +17,12 @@ Data Structures for Statistical Computing in Python
     and some comparisons with the R language. We conclude by discussing possible
     future directions for statistical computing and data analysis using Python.
 
+.. class:: keywords
+
+    Python, Scientific Computing
+
+
+
 Introduction
 ------------
 

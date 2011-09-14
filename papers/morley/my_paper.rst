@@ -64,6 +64,11 @@ openness in the analysis methods employed in scientific studies and will
 give access to advanced tools to all space scientists, currently 
 distribution is limited to non-commercial use.
 
+.. class:: keywords
+
+    Python, Scientific Computing
+
+
 
 Introduction
 ------------

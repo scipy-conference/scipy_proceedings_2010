@@ -60,6 +60,9 @@ Theano: A CPU and GPU Math Compiler in Python
     Theano, outlines the scope of the compiler, provides benchmarks
     on both CPU and GPU processors, and explains its overall design.*
 
+.. class:: keywords
+
+    Python, Scientific Computing
 
 
 Introduction

@@ -47,6 +47,11 @@ Unusual Relationships: Python and Weaver Birds
     overall nest distribution. This aids in guiding other modeling questions. NumPy arrays are used extensively, during the visualization. Mayavi2 is used 
     for the 3-D visualization and matplotlib is used for the representation of the results of statistical analysis.
 
+.. class:: keywords
+
+    Python, Scientific Computing
+
+
 Introduction
 ------------
 

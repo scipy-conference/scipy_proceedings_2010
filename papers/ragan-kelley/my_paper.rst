@@ -28,6 +28,9 @@ of many existing powerful tools for Python, as well as the definition of arbitra
 diagnostics in flight. The general design and preliminary performance results with the PyCUDA
 backend will be presented. This project is early in development, and input is welcome.
 
+.. class:: keywords
+
+    Python, Scientific Computing
 
 
 Introduction

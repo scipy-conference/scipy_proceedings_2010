@@ -20,6 +20,10 @@ Statsmodels: Econometric and Statistical Modeling with Python
     and philosophy, what can be found in the package, and some usage examples.
     The paper concludes with a look at what the future holds.
 
+.. class:: keywords
+
+    Python, Scientific Computing
+
 
 Introduction
 ------------

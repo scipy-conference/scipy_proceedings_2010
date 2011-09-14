@@ -28,6 +28,12 @@ Audio-Visual Speech Recognition using SciPy
 
    The performance of the system is tested using the Clemson University audio-visual experiments (CUAVE) database. We find that visual speech information is in itself not sufficient for automatic speech recognition. However, by integrating visual and acoustic speech information we are able to obtain better performance than what is possible with audio-only ASR. 
 
+.. class:: keywords
+
+    Python, Scientific Computing
+
+
+
 Introduction
 ============
 

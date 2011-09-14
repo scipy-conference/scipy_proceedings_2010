@@ -33,6 +33,11 @@ Protein Folding with Python on Supercomputers
     but some challenges remain before the Python implementation can replace the
     Fortran implementation for all production runs.
 
+.. class:: keywords
+
+    Python, Scientific Computing
+
+
 
 Introduction
 ------------

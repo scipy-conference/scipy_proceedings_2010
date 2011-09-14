@@ -35,6 +35,11 @@ Using Python with Smoke and JWST Mirrors
     We will discuss the advantages of using
     Python for each of these projects.
 
+.. class:: keywords
+
+    Python, Scientific Computing
+
+
 
 Introduction
 ------------

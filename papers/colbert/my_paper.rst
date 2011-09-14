@@ -63,6 +63,11 @@ ABSTRACT
   Not including the time required for the robot to capture the images, the 
   entire reconstruction process is executed, on average, in 300 milliseconds.
 
+.. class:: keywords
+
+    Python, Scientific Computing
+
+
 1. Introduction
 ---------------
 

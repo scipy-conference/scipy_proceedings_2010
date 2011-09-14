@@ -35,6 +35,10 @@ Divisi: Learning from Semantic Networks and Sparse SVD
     and it can export the labeled data in a format suitable for separate
     visualization GUIs.
 
+.. class:: keywords
+
+    Python, Scientific Computing
+
 
 Introduction
 ------------

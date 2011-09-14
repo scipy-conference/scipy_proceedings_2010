@@ -17,6 +17,10 @@ Astrodata
     separate from the astrodata source.  The configuration packages define a
     lexicon of terms associated with a family of dataset types and implements
     the behaviors associated with each terms.  
+
+.. class:: keywords
+
+    Python, Scientific Computing
     
 
 The Problem Domain: Handling Data Across Instrument-Modes

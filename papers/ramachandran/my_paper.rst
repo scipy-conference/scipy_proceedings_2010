@@ -30,6 +30,11 @@ PySPH: A Python Framework for Smoothed Particle Hydrodynamics
     is still a work in progress and we will discuss our future plans for
     the project.
 
+.. class:: keywords
+
+    Python, Scientific Computing
+
+
 
 Introduction
 ============

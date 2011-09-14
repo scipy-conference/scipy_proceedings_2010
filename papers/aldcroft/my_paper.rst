@@ -21,6 +21,11 @@ Keeping the Chandra Satellite Cool with Python
    mpi4py/MPICH2, large table manipulations with pytables/HDF5, and of course fast
    array math with NumPy.  
 
+.. class:: keywords
+
+    Python, Scientific Computing
+
+
 Motivation
 ------------
 
