@@ -23,8 +23,7 @@
 A High Performance Robot Vision Algorithm Implemented in Python
 ===============================================================
 
-ABSTRACT
---------
+.. class:: abstract
 
   A crucial behavior for assistive robots that operate in unstructured domestic 
   settings is the ability to efficiently reconstruct the 3D geometry of novel 
