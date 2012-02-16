@@ -120,6 +120,26 @@ Bioinformatics as well as Parallel Processing and Cloud Computing with Python.
 - need to highlight a few articles and organize the order of articles and
   explain that organization here
 
+- students:
+
+  # of countries/continents, total #
+
+::
+
+    Elaine Angelo, Harvard University | Boston, Massachusetts
+    James Bergstra, University of Montreal | Montreal, Canada
+    Kadambari Devarajan, University of Illinois | Chicago, Illinois
+    Gerardo Gutierrez, Universidad de Antioquia | Medellin, Colombia
+    Ryan May, University of Oklahoma | Norman, Oklahoma
+    Kristopher Overholt, University of Texas | Austin, Texas
+    Fabian Pedregosa | University of Granada
+    Nicolas Pinto, M.I.T. | Boston, Massachusetts
+    Skipper Seabold, American University | Washington, D.C.
+    Kurt Smith, University of Wisconsin | Masison, Wisconsin
+    Stéfan van der Walt, University of Stellenbosch | Johannesburg, South Africa
+    David Warde Farley, University of Toronto | Toronto, Canada
+    Omar Andres Zapata Mesa, Universidad de Antioquia | Medellin, Colombia
+
 Review and selection process
 ----------------------------
 
@@ -251,25 +271,32 @@ From the
 
 ----------
 
-A conference the size of SciPy is only possible through hard-work and dedication
-of a large number of volunteers.
+A conference the size of SciPy is only possible through hard-work and
+dedication of a large number of volunteers.  Once again Enthought,
+Inc. provided significant administrative support.  Especially, we would like to
+thank Amenity Applewhite, Jodi Havranek, and Leah Jones, who not only ... admin
+(registration, email, etc.) + since it's new venue: scout location, negotiating
+vendor prices, .
 
-We would like to thank
+Financial support 
+
+  - Students
+  - Meals
+  - Subsidize registration ?
+  - Media sponsors
 
   - sponsors
   
     - Enthought
-    - PSF
     - Microsoft
-    - HP
-    - etc...
-  
-  - local organization
-  
-    - Leah
-    - Amenity
-    - etc...
+    - Dell
+    - DE Shaw & Co.
+    - AQR Capital Management
+    - IEEE Computing in Science and Engineering
+
+Proceedings:
 
   - participants, authors, reviewers, etc.
+
 
 Enthought, Dell, Microsoft, D.E. Shaw & Co., AQR Financial Management, the Python Software Foundation, and one anonymous donor, have provided funding for 14 students to travel and attend SciPy 2010.
