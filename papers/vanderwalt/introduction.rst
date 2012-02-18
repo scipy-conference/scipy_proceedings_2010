@@ -21,9 +21,9 @@ co-organisers at CalTech for all their support and effort over the past 7
 years, and for playing such an integral part in establishing this event.
 
 What started as a small, informal meeting has now become a world-wide series of
-conferences, with third EuroSciPy held at the Ecole Normale Supérieure in Paris
+conferences, with the third EuroSciPy held at the Ecole Normale Supérieure in Paris
 from July 8th to the 11th as well as the second SciPy India in Hyderabad, Andra
-Pradesh from SciPy.in 2010, December 13th to 18th. 
+Pradesh from December 13th to 18th. 
 
 This is the third publication of a SciPy conference proceedings.
 
@@ -113,80 +113,26 @@ Bioinformatics as well as Parallel Processing and Cloud Computing with Python.
     Fabian Pedregosa | University of Granada
     Nicolas Pinto, M.I.T. | Boston, Massachusetts
     Skipper Seabold, American University | Washington, D.C.
-    Kurt Smith, University of Wisconsin | Masison, Wisconsin
-    Stéfan van der Walt, University of Stellenbosch | Johannesburg, South Africa
+    Kurt Smith, University of Wisconsin | Madison, Wisconsin
+    Stéfan van der Walt, University of Stellenbosch | Stellenbosch, South Africa
     David Warde Farley, University of Toronto | Toronto, Canada
     Omar Andres Zapata Mesa, Universidad de Antioquia | Medellin, Colombia
 
 Review and selection process
 ----------------------------
 
-This year we received
-33 abstracts from
-... different countries. The submissions covered a number of research fields,
-including ....
-Moreover, the articles discussed involve a number of computational tools: these
-include ...
- 
-Each abstract was reviewed by both the program chairs as well as
-two members of the program committee (PC). The PC consisted of
-... members from
-... countries, and represented both industry and academia.
-
+Each of the 33 submitted abstracts was reviewed by both the program chairs and
+two additional members of the program committee. The committee consisted of 11
+members from 6 countries, and represented both industry and academia.
 
 Abstracts were evaluated according to the following criteria:
 applicability, novelty, and general impression.
 
-We accepted 32 submissions for oral presentation at the
-conference. At the end of the conference, we invited the
-presenters to submit their work for publication in the
-proceedings. These submissions were reviewed by
-... proceedings
-reviewers from
-... countries, according to the following criteria:
-
-Everyone who presented at this year's conference was invited to submit an
-article for consideration in the peer-reviewed proceedings. The conference
-presentations were selected by a program committee, based on submitted
-abstracts and the follow criteria: applicability, novelty, and general
-impression. Each abstract was reviewed by at least four reviewers. Of the 32
-accepted abstracts, we have 19 submitted papers to review.
-
-The purpose of the conference proceedings is to increase the visibility of the
-conference and the presented work, as well as to provide academic recognition
-of the significant contributions made by the developers of software for science
-and engineering. To ensure the published proceedings are of sufficiently high
-quality, we have have instituted a formal review process in which each paper
-will be reviewed by at least two reviewers according to explicit and uniform
-criteria.
-
-To ensure the published proceedings are of sufficiently high quality, we have
-have instituted a formal review process in which each paper is reviewed by at
-least two reviewers according to explicit and uniform criteria.  To ensure
-transparency, all reviews are made public. A more detailed description of the
-process is given below.
-
-
-- open review process
-- review template
-
-*GENERAL EVALUATION.* Reviewer's rated each paper using the following
-criteria::
-
-  below     doesn't meet standards for
-            academic publication
-  meets     meets or exceeds the standards
-            for academic publication
-  n/a       not applicable
-
-- Quality of the approach:
-
-- Quality of the writing:
-
-- Quality of the figures/tables:
-
-
-*SPECIFIC EVALUATION.*
+We accepted 32 submissions for oral presentation at the conference. At the end
+of the conference, we invited the presenters to submit their work for
+publication in the proceedings. These submissions were reviewed by 14
+proceedings reviewers from 8 countries.  Each reviewer provided an overall
+score for each reviewed paper, based on the quality of approach and writing.
 Reviewers were also asked to provide more specific feedback to the following
 questions:
 
@@ -226,7 +172,7 @@ questions:
 
 - Are the code examples (if any) sound, clear, and well-written?
 
-- Is the paper factual correct?
+- Is the paper factually correct?
 
 - Is the language and grammar of sufficient quality?
 
@@ -240,39 +186,24 @@ questions:
   Please suggest specific improvements and indicate whether you think the
   article needs a significant rewrite (rather than a minor revision).
  
-From the
-... original abstracts,
-... (...%) have been accepted for publication in these proceedings.
-
 ----------
 
-A conference the size of SciPy is only possible through hard-work and
-dedication of a large number of volunteers.  Once again Enthought,
-Inc. provided significant administrative support.  Especially, we would like to
-thank Amenity Applewhite, Jodi Havranek, and Leah Jones, who not only ... admin
-(registration, email, etc.) + since it's new venue: scout location, negotiating
-vendor prices, .
+A conference the size of SciPy is only possible through the hard work and
+dedication of a large number of volunteers.  Once again Enthought, Inc.
+provided significant administrative support.  In particular, we would like to
+thank Amenity Applewhite, Jodi Havranek, and Leah Jones, who not only carried a
+significant administrative burden, but also did the enormous footwork required
+in seeking out a location, negotating vendor prices, etc. after the conference
+moved from CalTech to Austin this year.
 
-Financial support 
+We thank Enthought, Dell, Microsoft, D.E. Shaw & Co., AQR Financial Management,
+the Python Software Foundation, and one anonymous donor, for funding 14
+students to travel and attend SciPy 2010.  We also acknowledge our media
+sponsor, the IEEE/AIP Computing in Science and Engineering magazine, for
+publicizing the conference and providing magazines to participants.
 
-  - Students
-  - Meals
-  - Subsidize registration ?
-  - Media sponsors
+These proceedings are the result of many hours of work by authors and reviewers
+alike.  We thank them for their significant investment in these manuscripts.
+The names of all contributers are listed in the "Organization" section, which
+forms part of the cover material.
 
-  - sponsors
-  
-    - Enthought
-    - Microsoft
-    - Dell
-    - DE Shaw & Co.
-    - AQR Capital Management
-    - IEEE Computing in Science and Engineering
-
-Proceedings:
-
-  - participants, authors, reviewers, etc.
-
-Enthought, Dell, Microsoft, D.E. Shaw & Co., AQR Financial Management, the
-Python Software Foundation, and one anonymous donor, have provided funding for
-14 students to travel and attend SciPy 2010.
