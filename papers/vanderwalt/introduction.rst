@@ -4,50 +4,12 @@
 
 :author: Jarrod Millman
 :email: millman@berkeley.edu
-:institution: UC Berkeley
+:department: Helen Wills Neuroscience Institute
+:institution: University of California, Berkeley
 
 ---------
 Editorial
 ---------
-
-.. class:: keywords
-
-    Python, Scientific Computing
-
-Introduction
-------------
-
-This is the third publication of a SciPy conference proceedings.  The
-aim the proceedings is to increase the visibility of the conference
-and the presented work, and to provide academic recognition of the
-significant contributions made by the developers of software for
-science and engineering.
-
-To ensure the published proceedings are of sufficiently high quality,
-we have have instituted a formal review process in which each paper is
-reviewed by at least two reviewers according to explicit and uniform
-criteria.  To ensure transparency, all reviews are made public. A more
-detailed description of the process is given below.
-
-The editors would like to apologise for the late publication of this
-year's proceedings, mainly due to the significant time invested in
-rewriting the publication framework.  The new framework allows us to
-publish future editions much more rapidly, as witnessed by the 2010
-and 2011 proceedings seeing the light almost simultaneously.  The
-tools used to produce this document are made available under an open
-source license, and may be obtained from the code repository at
-`https://github.com/scipy/scipy-proceedings
-</usr/share/doc/texlive-doc/latex/beamerposter/example.tex>`__.
-
-Growing community
------------------
-
-This year's conference was attended by 187 participants from both academia and
-industry.
-
-SciPy attendees come from far and wide, including North America, Columbia,
-Spain, South Africa, Turkey, Germany, Norway, Italy, Singapore and Great
-Britain.
 
 Welcome to the proceedings of the 9th Python in Science conference (SciPy2010),
 held in Austin, Texas from June 28th to July 3rd 2010.
@@ -63,8 +25,24 @@ conferences, with third EuroSciPy held at the Ecole Normale Supérieure in Paris
 from July 8th to the 11th as well as the second SciPy India in Hyderabad, Andra
 Pradesh from SciPy.in 2010, December 13th to 18th. 
 
+This is the third publication of a SciPy conference proceedings.
+
+The publication of this year's proceedings was delayed due to a complete
+rewrite of the publication framework.  The new framework is much easier to use
+and extend and will enable us to publish future editions much more rapidly. The
+tools used to produce this document are made available under an open source
+license, and may be obtained from the code repository at
+https://github.com/scipy/scipy-proceedings.
+
 Conference overview
 -------------------
+
+This year's conference was attended by 187 participants from both academia and
+industry.
+
+SciPy attendees come from far and wide, including North America, Columbia,
+Spain, South Africa, Turkey, Germany, Norway, Italy, Singapore and Great
+Britain.
 
 - transitions and maturity theme
 
@@ -182,14 +160,11 @@ quality, we have have instituted a formal review process in which each paper
 will be reviewed by at least two reviewers according to explicit and uniform
 criteria.
 
-The primary goal of the review process is to provide independent feedback that
-guide authors in improving their papers. To review a paper, please complete the
-attached review form for each article you review.
-
-Please note that, while reviewers' recommendations regarding a paper's
-suitability for publication are seriously considered, the final decision rests
-with the proceeding editors.
-
+To ensure the published proceedings are of sufficiently high quality, we have
+have instituted a formal review process in which each paper is reviewed by at
+least two reviewers according to explicit and uniform criteria.  To ensure
+transparency, all reviews are made public. A more detailed description of the
+process is given below.
 
 
 - open review process
@@ -298,5 +273,6 @@ Proceedings:
 
   - participants, authors, reviewers, etc.
 
-
-Enthought, Dell, Microsoft, D.E. Shaw & Co., AQR Financial Management, the Python Software Foundation, and one anonymous donor, have provided funding for 14 students to travel and attend SciPy 2010.
+Enthought, Dell, Microsoft, D.E. Shaw & Co., AQR Financial Management, the
+Python Software Foundation, and one anonymous donor, have provided funding for
+14 students to travel and attend SciPy 2010.
