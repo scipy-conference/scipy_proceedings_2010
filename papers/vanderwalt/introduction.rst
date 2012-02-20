@@ -73,8 +73,8 @@ Statistical Modeling with Python* by Skipper Seabold and Josef Perktold, and
 The conference was followed by the traditional two days of sprints.  The new
 location provided a number of rooms where groups could interact, helping to
 draw in some of the smaller projects.  It was a productive time for all
-involved, and led to improvements in projects such as ``NumPy``, ``SciPy``,
-``IPython``, ``matplotlib``, ``scikits.learn``, ``scikits.image``, ``theano``,
+involved, and led to improvements in projects such as *NumPy*, *SciPy*,
+*IPython*, *matplotlib*, *scikits.learn*, *scikits.image*, *theano*,
 and several others.
 
 Proceedings
