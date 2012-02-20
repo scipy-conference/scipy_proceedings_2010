@@ -26,7 +26,7 @@
        "license": "Creative Commons Attribution License (CCAL)"}
   },
   "organization": [
-  
+
         {
             "name": "Conference Chairs",
             "members": [
@@ -146,6 +146,49 @@
                 ]
         }
 
+    ],
 
-    ]
+    "sponsored_students": [
+        {"name": "Elaine Angelo",
+         "org": "Harvard University",
+         "location": "Boston, Massachusetts"},
+        {"name": "James Bergstra",
+         "org": "University of Montreal",
+         "location": "Montreal, Canada"},
+        {"name": "Kadambari Devarajan",
+         "org": "University of Illinois",
+         "location": "Chicago, Illinois"},
+        {"name": "Gerardo Gutierrez",
+         "org": "Universidad de Antioquia",
+         "location": "Medellin, Colombia"},
+        {"name": "Ryan May",
+         "org": "University of Oklahoma",
+         "location": "Norman, Oklahoma"},
+        {"name": "Kristopher Overholt",
+         "org": "University of Texas",
+         "location": "Austin, Texas"},
+        {"name": "Fabian Pedregosa",
+         "org": "University of Granada",
+         "location": "Granada, Spain"},
+        {"name": "Nicolas Pinto",
+         "org": "Massachusetts Institute of Technology",
+         "location": "Boston, Massachusetts"},
+        {"name": "Skipper Seabold",
+         "org": "American University",
+         "location": "Washington, D.C."},
+        {"name": "Kurt Smith",
+         "org": "University of Wisconsin",
+         "location": "Madison, Wisconsin"},
+        {"name": "Stéfan van der Walt",
+         "org": "Stellenbosch University",
+         "location": "Stellenbosch, South Africa"},
+        {"name": "David Warde Farley",
+         "org": "University of Toronto",
+         "location": "Toronto, Canada"},
+        {"name": "Omar Andres Zapata Mesa",
+         "org": "Universidad de Antioquia",
+         "location": "Medellin, Colombia"}
+     ]
 }
+
+
