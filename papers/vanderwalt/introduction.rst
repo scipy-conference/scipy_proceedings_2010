@@ -11,8 +11,22 @@
 Editorial
 ---------
 
-Welcome to the proceedings of the 9th Python in Science conference (SciPy2010),
-held in Austin, Texas from June 28th to July 3rd 2010.
+Welcome to the third publication of the SciPy conference proceedings.
+The publication of this year's proceedings was delayed due to a complete
+rewrite of the publication framework.  The new framework is much easier to use
+and extend and will enable us to publish future editions much more rapidly. The
+tools used to produce this document are made available under an open source
+license, and may be obtained from the code repository at
+https://github.com/scipy/scipy-proceedings.
+
+Conference overview
+-------------------
+
+2010 marked the 9th Python in Science conference (SciPy2010), which was held in
+Austin, Texas from June 28th to July 3rd 2010.  This year's conference was
+attended by 187 participants from both academia and industry.  Attendees came
+from far and wide, including North America, Columbia, Spain, South Africa,
+Turkey, Germany, Norway, Italy, Singapore and Great Britain.
 
 Since its inception, the conference was held at the California Institute of
 Technology, but with Enthought taking a leading role in its organisation, it
@@ -24,25 +38,6 @@ What started as a small, informal meeting has now become a world-wide series of
 conferences, with the third EuroSciPy held at the Ecole Normale Supérieure in Paris
 from July 8th to the 11th as well as the second SciPy India in Hyderabad, Andra
 Pradesh from December 13th to 18th. 
-
-This is the third publication of a SciPy conference proceedings.
-
-The publication of this year's proceedings was delayed due to a complete
-rewrite of the publication framework.  The new framework is much easier to use
-and extend and will enable us to publish future editions much more rapidly. The
-tools used to produce this document are made available under an open source
-license, and may be obtained from the code repository at
-https://github.com/scipy/scipy-proceedings.
-
-Conference overview
--------------------
-
-This year's conference was attended by 187 participants from both academia and
-industry.
-
-SciPy attendees come from far and wide, including North America, Columbia,
-Spain, South Africa, Turkey, Germany, Norway, Italy, Singapore and Great
-Britain.
 
 - transitions and maturity theme
 
