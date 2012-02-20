@@ -7,77 +7,71 @@
 :department: Helen Wills Neuroscience Institute
 :institution: University of California, Berkeley
 
+.. |emdash| unicode:: U+02014
+   :trim:
+
 ---------
 Editorial
 ---------
 
-Welcome to the third publication of the SciPy conference proceedings.
-The publication of this year's proceedings was delayed due to a complete
-rewrite of the publication framework.  The new framework is much easier to use
-and extend and will enable us to publish future editions much more rapidly. The
-tools used to produce this document are made available under an open source
-license, and may be obtained from the code repository at
+Welcome to the third publication of the SciPy conference proceedings.  Due to
+time constraints of the editors, as well as a complete rewrite of the
+publication framework, completion of this year's proceedings took longer than
+anticipated.  The new framework, however, is much easier to use and extend and
+will enable us to publish future editions much more rapidly. The tools used to
+produce this document are made available under an open source license, and may
+be obtained from the code repository at
 https://github.com/scipy/scipy-proceedings.
 
 Conference overview
 -------------------
 
 2010 marked the 9th Python in Science conference (SciPy2010), which was held in
-Austin, Texas from June 28th to July 3rd 2010.  This year's conference was
-attended by 187 participants from both academia and industry.  Attendees came
-from far and wide, including North America, Columbia, Spain, South Africa,
-Turkey, Germany, Norway, Italy, Singapore and Great Britain.
+Austin, Texas from June 28th to July 3rd 2010.  The conference was attended by
+187 participants from both academia and industry.  Attendees came from far and
+wide, including North America, Columbia, Spain, South Africa, Turkey, Germany,
+Norway, Italy, Singapore and Great Britain.
 
-Since its inception, the conference was held at the California Institute of
-Technology, but with Enthought taking a leading role in its organisation, it
-made sense to move it to Austin, Texas.  We thank our colleagues and
-co-organisers at CalTech for all their support and effort over the past 7
-years, and for playing such an integral part in establishing this event.
+For the first eight years, the conference was held at the California Institute
+of Technology.  After the 2009 conference, we began looking for a new venue to
+enable continued growth of the event.  With Enthought playing a prominent
+organizational role, we chose the AT&T Conference Center in Austin, Texas.  We
+thank our colleagues and co-organisers at CalTech for all their support and
+effort over the years, and for playing such an integral part in establishing
+this event.
 
-What started as a small, informal meeting has now become a world-wide series of
-conferences, with the third EuroSciPy held at the Ecole Normale Supérieure in Paris
-from July 8th to the 11th as well as the second SciPy India in Hyderabad, Andra
-Pradesh from December 13th to 18th. 
+What started as a small, informal meeting is now a world-wide series of
+conferences, with the third EuroSciPy held at the Ecole Normale Supérieure in
+Paris from July 8th to the 11th as well as the second SciPy India in Hyderabad,
+Andra Pradesh from December 13th to 18th.
 
-- transitions and maturity theme
+.. - transitions and maturity theme
 
-Specialized tracks for this year's conference include Python for
-Bioinformatics as well as Parallel Processing and Cloud Computing with Python. 
+The conference kicked off with a keynote by David Beazley on *Python
+Concurrency*.  David is well known in the Python community as an author,
+speaker and trainer.  From his early career in scientific computing, David is
+well known as the author of SWIG |emdash| a popular tool that generates C++/Python
+wrappers.
 
-- keynotes
+The second keynote, *Moving Forward from the Last Decade of SciPy*, was
+delivered by Travis Oliphant.  From Travis's unique position as the original
+author of NumPy and a founding contributor to SciPy, he gave a historical
+overview of the growth of the community and tool chain, and shared his
+perspective on potential future development.
 
-  - Python Concurrency, David Beazley
-  - Moving Forward from the Last Decade of SciPy, Travis Oliphant
+The larger new venue allowed us to host parallel tracks for the first time; in
+addition to the main conference, we had specialized tracks in *bioinformatics*
+as well as *parallel processing and cloud computing*.
 
-- major theme:  parallel computing and GPUs
+The latter was a central topic of the conference, dealt with in several papers
+in these proceedings.  At the conference, tutorials on the topic included *High
+Performance and Parallel Computing* by Brian Granger and *GPUs and Python* by
+Andreas Klockner.
 
-  - tutorials
-
-    - Brian Granger. High Performance & Parallel Computing
-      mulitiple libraries: multiprocessing, mpi2py, pyzmq, IPython
-    - Andreas Klockner. GPUs and Python: PyCuda, PyOpenCL
-
-  - keynote
-
-    - David Beazley. Python Concurrency
-
-  - general session
-
-    - Theano: Transparent GPU computing
-      Bergstra et al.
-
-    - Simple, Fast Messaging in Python with 0MQ and PyZMQ
-
-  - special track: parallel
-
-- minor theme: stat and stat data structure
-
-  - general session
-
-    - statsmodel, seabold
-    - pandas, wes mckinney
-
-  - BoF on datarray
+The conference saw a rising interest in the use of Python tools for statistical
+computing.  Of particular note are the papers *Statsmodels: Econometrics and
+Statical Modeling* by Skipper Seabold and Josef Perktold, and *Data Structures
+for Statistical Computing* by Wes McKinney.
 
   - sprints
 
