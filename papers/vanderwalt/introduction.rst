@@ -10,9 +10,9 @@
 .. |emdash| unicode:: U+02014
    :trim:
 
----------
-Editorial
----------
+-------
+Preface
+-------
 
 Introduction
 ------------
