@@ -25,6 +25,8 @@
 :email: jniehof@lanl.gov
 :institution: Los Alamos National Laboratory
 
+.. |---| unicode:: U+02014 .. em dash
+   :trim:
 
 ----------------------------------------------------------------
 SpacePy - A Python-based Library of Tools for the Space Sciences
@@ -32,41 +34,43 @@ SpacePy - A Python-based Library of Tools for the Space Sciences
 
 .. class:: abstract
 
-Space science deals with the bodies within the solar system and the
-interplanetary medium; the primary focus is on atmospheres and above - at
-Earth the short timescale variation in the the geomagnetic field, the Van
-Allen radiation belts and the deposition of energy into the upper
-atmosphere are key areas of investigation. SpacePy is a package for
-Python, targeted at the space sciences, that aims to make basic data
-analysis, modeling and visualization easier. It builds on the capabilities
-of the well-known NumPy and matplotlib packages. Publication quality
-output direct from analyses is emphasized. The SpacePy project seeks to
-promote accurate and open research standards by providing an open
-environment for code development. In the space physics community there has
-long been a significant reliance on proprietary languages that restrict
-free transfer of data and reproducibility of results. By providing a
-comprehensive library of widely-used analysis and
-visualization tools in a free, modern and intuitive language, we hope that
-this reliance will be diminished for non-commercial users.
-SpacePy includes implementations of widely used empirical models,
-statistical techniques used frequently in space science (e.g. superposed
-epoch analysis), and interfaces to advanced tools such as electron drift
-shell calculations for radiation belt studies. SpacePy also provides
-analysis and visualization tools for components of the Space Weather
-Modeling Framework including streamline tracing in vector fields. 
-Further development is currently underway. External libraries, which 
-include well-known magnetic field models, high-precision time 
-conversions and coordinate transformations are accessed 
-from Python using ctypes and f2py. The rest of the tools have been 
-implemented directly in Python.
-The provision of open-source tools to perform common tasks will provide
-openness in the analysis methods employed in scientific studies and will
-give access to advanced tools to all space scientists, currently 
-distribution is limited to non-commercial use.
+   Space science deals with the bodies within the solar system and the
+   interplanetary medium; the primary focus is on atmospheres and above |---|
+   at Earth the short timescale variation in the the geomagnetic field, the Van
+   Allen radiation belts and the deposition of energy into the upper atmosphere
+   are key areas of investigation.
+
+   SpacePy is a package for Python, targeted at the space sciences, that aims
+   to make basic data analysis, modeling and visualization easier. It builds on
+   the capabilities of the well-known NumPy and matplotlib
+   packages. Publication quality output direct from analyses is emphasized. The
+   SpacePy project seeks to promote accurate and open research standards by
+   providing an open environment for code development. In the space physics
+   community there has long been a significant reliance on proprietary
+   languages that restrict free transfer of data and reproducibility of
+   results. By providing a comprehensive library of widely-used analysis and
+   visualization tools in a free, modern and intuitive language, we hope that
+   this reliance will be diminished for non-commercial users.
+
+   SpacePy includes implementations of widely used empirical models,
+   statistical techniques used frequently in space science (e.g. superposed
+   epoch analysis), and interfaces to advanced tools such as electron drift
+   shell calculations for radiation belt studies. SpacePy also provides
+   analysis and visualization tools for components of the Space Weather
+   Modeling Framework including streamline tracing in vector fields.  Further
+   development is currently underway. External libraries, which include
+   well-known magnetic field models, high-precision time conversions and
+   coordinate transformations are accessed from Python using ctypes and
+   f2py. The rest of the tools have been implemented directly in Python.
+
+   The provision of open-source tools to perform common tasks will provide
+   openness in the analysis methods employed in scientific studies and will
+   give access to advanced tools to all space scientists, currently
+   distribution is limited to non-commercial use.
 
 .. class:: keywords
 
-    Python, Scientific Computing
+    astronomy, atmospheric science, space weather, visualization
 
 
 
@@ -212,7 +216,7 @@ or the plane of the Earth's dipole axis, which are time-dependent.
 
 A new, higher-precision C library to perform time conversions, coordinate 
 conversions, satellite ephemeris calculations, magnetic field modeling and
-drift shell calculations - the LANLGeoMag (LGM) library - is currently being 
+drift shell calculations |---| the LANLGeoMag (LGM) library |---| is currently being 
 wrapped for Python and will eventually replace the IRBEM library as the 
 default in SpacePy.
 
@@ -381,7 +385,7 @@ At the time of writing, limited support for NASA CDF [#]_ has been
 written in to SpacePy. NASA themselves have worked with the developers of
 both |IDL| and |MatLab|. In addition to
 the standard C library for CDF, they provide a FORTRAN interface and an
-interface for Perl -- the latest addition is support for |Csharp|. As Python is 
+interface for Perl |---| the latest addition is support for |Csharp|. As Python is 
 not supported by the NASA team, but is growing in popularity in the space 
 science community we have written a module to handle CDF files.
 

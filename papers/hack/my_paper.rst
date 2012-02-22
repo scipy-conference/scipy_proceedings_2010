@@ -37,7 +37,7 @@ Using Python with Smoke and JWST Mirrors
 
 .. class:: keywords
 
-    Python, Scientific Computing
+    astronomy, telescope, NASA, measure, real-time, big data
 
 
 

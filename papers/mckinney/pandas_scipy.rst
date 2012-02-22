@@ -19,7 +19,7 @@ Data Structures for Statistical Computing in Python
 
 .. class:: keywords
 
-    Python, Scientific Computing
+    data structure, statistics, R
 
 
 

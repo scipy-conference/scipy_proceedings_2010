@@ -64,7 +64,7 @@ A High Performance Robot Vision Algorithm Implemented in Python
 
 .. class:: keywords
 
-    Python, Scientific Computing
+    computer vision, real-time, geometry, robotics
 
 
 1. Introduction

@@ -32,7 +32,7 @@ PySPH: A Python Framework for Smoothed Particle Hydrodynamics
 
 .. class:: keywords
 
-    Python, Scientific Computing
+    parallel, Cython, fluid dynamics, simulation
 
 
 

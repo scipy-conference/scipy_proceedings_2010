@@ -22,7 +22,7 @@ Statsmodels: Econometric and Statistical Modeling with Python
 
 .. class:: keywords
 
-    Python, Scientific Computing
+    statistics, econometrics, R
 
 
 Introduction

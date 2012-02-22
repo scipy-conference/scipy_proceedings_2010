@@ -10,6 +10,9 @@
 :email: havasi@mit.edu
 :institution: MIT
 
+.. |---| unicode:: U+02014 .. em dash
+   :trim:
+
 ------------------------------------------------------
 Divisi: Learning from Semantic Networks and Sparse SVD
 ------------------------------------------------------
@@ -22,12 +25,14 @@ Divisi: Learning from Semantic Networks and Sparse SVD
     particular was used in many of the top entries to the Netflix
     Challenge. It can also help generalize and learn from knowledge
     represented in a sparse semantic network.
+
     Although this operation is fundamental to many fields, it requires a
     significant investment of effort to compute an SVD from sparse data
     using Python tools. Divisi is an answer to this: it combines NumPy,
     PySparse, and an extension module wrapping SVDLIBC, to make Lanczos'
     algorithm for sparse SVD easily usable within cross-platform Python
     code.
+
     Divisi includes utilities for working with data in a variety of sparse
     formats, including semantic networks represented as edge lists or
     NetworkX graphs. It augments its matrices with labels, allowing you to
@@ -37,7 +42,7 @@ Divisi: Learning from Semantic Networks and Sparse SVD
 
 .. class:: keywords
 
-    Python, Scientific Computing
+    SVD, sparse, linear algebra, semantic networks, graph theory
 
 
 Introduction
@@ -73,7 +78,7 @@ singular values, and their corresponding rows of :math:`U` and columns of
 :math:`V`, represent the principal components of the data.
 
 To create the truncated SVD,  discard all but the first :math:`k`
-components -- the principal components of :math:`A` -- resulting in the smaller
+components |---| the principal components of :math:`A` |---| resulting in the smaller
 matrices :math:`U_k`, :math:`\Sigma_k`, and :math:`V^T_k`. The
 components that are discarded represent relatively small variations in the
 data, and the principal components form a low-rank approximation of the
@@ -123,7 +128,7 @@ they *mean* instead of simply by their position in the matrix.
 
 The label lists themselves are instances of Divisi's OrderedSet class, which
 augments a list with a dictionary of its values, so that it can perform the
-``.index()`` operation -- finding an entry by its value -- in constant time.
+``.index()`` operation |---| finding an entry by its value |---| in constant time.
 This enables methods such as ``SparseMatrix.row_named(label)``, efficiently
 returning the row with a particular label.
 
@@ -506,8 +511,8 @@ Recall that ``reconstruct_similarity`` normalizes its values to
 between -1 and 1. Here, this normalization makes some nodes, such as
 "newspaper article" and "home depot", get a spuriously high weight
 because their truncated SVD vectors had low magnitude.  When ranking
-possible similarities -- or, for that matter, predictions for new
-assertions that could be true -- we have found it more useful to
+possible similarities |---| or, for that matter, predictions for new
+assertions that could be true |---| we have found it more useful to
 normalize the vectors to unit vectors *before* the SVD, so that nodes
 that are weakly described by the SVD do not end up magnified.
 
