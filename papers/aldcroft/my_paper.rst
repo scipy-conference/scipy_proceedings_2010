@@ -23,7 +23,7 @@ Keeping the Chandra Satellite Cool with Python
 
 .. class:: keywords
 
-    Python, Scientific Computing
+   
 
 
 Motivation

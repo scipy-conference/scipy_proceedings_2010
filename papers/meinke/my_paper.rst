@@ -35,7 +35,7 @@ Protein Folding with Python on Supercomputers
 
 .. class:: keywords
 
-    Python, Scientific Computing
+   parallel, MPI, biology, protein structure
 
 
 

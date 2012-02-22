@@ -62,7 +62,7 @@ Theano: A CPU and GPU Math Compiler in Python
 
 .. class:: keywords
 
-    Python, Scientific Computing
+    GPU, CUDA, machine learning, optimization, compiler
 
 
 Introduction
