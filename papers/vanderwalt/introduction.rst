@@ -22,13 +22,13 @@ year marked the 9th Python in Science conference (SciPy2010), which was held in
 Austin, Texas from June 28th to July 3rd 2010.  The conference was attended by
 187 participants from both academia and industry.  Attendees came from far and
 wide, including North America, Columbia, Spain, South Africa, Turkey, Germany,
-Norway, Italy, Singapore and Great Britain.
+Norway, Italy, Singapore, and Great Britain.
 
 For the first eight years, the conference was held at the California Institute
 of Technology.  After the 2009 conference, we began looking for a new venue to
 enable continued growth of the event.  With Enthought playing a prominent
 organizational role, we chose the AT&T Conference Center in Austin, Texas.  We
-thank our colleagues and co-organisers at CalTech for all their support and
+thank our colleagues and co-organisers at Caltech for all their support and
 effort over the years, and for playing such an integral part in establishing
 this event.
 
@@ -42,17 +42,17 @@ Conference overview
 
 The conference kicked off with a keynote by David Beazley on *Python
 Concurrency*.  David is well known in the Python community as an author,
-speaker and trainer.  From his early career in scientific computing, David is
+speaker, and trainer.  From his early career in scientific computing, David is
 well known as the author of SWIG |emdash| a popular tool that generates C++/Python
 wrappers.
 
 The second keynote, *Moving Forward from the Last Decade of SciPy*, was
 delivered by Travis Oliphant.  From Travis's unique position as the original
-author of NumPy and a founding contributor to SciPy, he gave a historical
+author of NumPy and a founding contributor to SciPy, he provided an historical
 overview of the growth of the community and tool chain, and shared his
-perspective on potential future development.
+vision for potential future development.
 
-The larger new venue allowed us to host parallel tracks for the first time; in
+The new, larger venue allowed us to host parallel tracks for the first time; in
 addition to the main conference, we had specialized tracks in *bioinformatics*
 as well as *parallel processing and cloud computing*.
 
@@ -63,7 +63,7 @@ Andreas Klockner.
 
 The continuing strong presence of the astronomy community was evident at the
 conference, and is also reflected in the proceedings, with papers on projects
-such as the Chandra, James Webb and Hubble telescopes.
+such as the Chandra, James Webb, and Hubble telescopes.
 
 The conference saw a rising interest in statistical computing and biological
 modelling.  Of particular note are the papers *Statsmodels: Econometrics and
@@ -95,9 +95,6 @@ score for each reviewed paper, based on the quality of approach and writing.
 Reviewers were also asked to provide more specific feedback according to the
 questionnaire shown in the appendix.
 
-.. - need to highlight a few articles and organize the order of articles and
-..  explain that organization here
-
 Due to time constraints of the editors, as well as a complete rewrite of the
 publication framework, completion of this year's proceedings took longer than
 anticipated.  The new framework, however, is much easier to use and extend and
@@ -111,12 +108,12 @@ Acknowledgements
 ----------------
 
 A conference the size of SciPy is only possible through the hard work and
-dedication of a large number of volunteers.  Once again Enthought, Inc.
+dedication of a large number of volunteers.  Once again Enthought
 provided significant administrative support.  In particular, we would like to
 thank Amenity Applewhite, Jodi Havranek, and Leah Jones, who not only carried a
 significant administrative burden, but also did the enormous footwork required
-in seeking out a location, negotating vendor prices, etc. after the conference
-moved from CalTech to Austin this year.
+in securing a new venue, negotating vendor prices, and numerous other tasks
+both small and large due to the move from Caltech to Austin this year.
 
 We thank Enthought, Dell, Microsoft, D.E. Shaw & Co., AQR Financial Management,
 the Python Software Foundation, and one anonymous donor, for funding 14
@@ -178,7 +175,7 @@ Appendix: Reviewer Questionnaire
 
 - Is prior work properly and fully cited?
 
-- Should any part of the article be shortened or expanded? Please explain.
+- Should any part of the article be shortened or expanded?
 
 - In your view, is the paper fit for publication in the conference proceedings?
   Please suggest specific improvements and indicate whether you think the
