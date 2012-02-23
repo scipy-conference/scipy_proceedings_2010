@@ -13,7 +13,7 @@
 
 :author: Vicki Laidler
 :email: laidler@stsci.edu
-:institution: Computer Sciences Corporation, Space Telescope Science Institute
+:institution: Space Telescope Science Institute
 
 :author: Todd Miller
 :email: jmiller@stsci.edu

@@ -1,6 +1,6 @@
 :author: Kristopher Overholt
 :email: koverholt@gmail.com
-:institution: The University of Texas at Austin
+:institution: University of Texas at Austin
 
 ---------------------------------------------------------
 Numerical Pyromaniacs: The Use of Python in Fire Research

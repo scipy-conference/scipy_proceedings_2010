@@ -1,8 +1,6 @@
 :author: Jan H. Meinke
 :email: j.meinke@fz-juelich.de
-:institution: Institute for Advanced Simulation, 
-    Juelich Supercomputing Centre, 
-    Forschungszentrum Juelich, 52425 Juelich, Germany
+:institution: Institute for Advanced Simulation 
 
 .. |---| unicode:: U+02014 .. em dash
    :trim:

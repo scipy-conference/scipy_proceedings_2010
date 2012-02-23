@@ -1,30 +1,15 @@
 :author: Kadambari Devarajan
 :email: kadambari.devarajan@gmail.com
-:institution: 
-    Department of Computer Science, 
+:institution: University of Illinois at Chicago
 
-    University of Illinois at Chicago.
 :author: Maria A. Echeverry-Galvis
-:institution: 
-    Department of Ecology and 
-    
-    Evolutionary Biology, 
-    
-    Princeton University.
-:author: Rajmonda Sulo
-:institution: 
-    Department of Mathematics, 
-    
-    Statistics and Computer Science,
+:institution: Princeton University
 
-    University of Illinois at Chicago.
+:author: Rajmonda Sulo
+:institution: University of Illinois at Chicago
+
 :author: Jennifer K. Peterson
-:institution: 
-    Department of Ecology and 
-    
-    Evolutionary Biology,
-    
-    Princeton University.
+:institution: Princeton University
 
 -----------------------------------------------
 Unusual Relationships: Python and Weaver Birds

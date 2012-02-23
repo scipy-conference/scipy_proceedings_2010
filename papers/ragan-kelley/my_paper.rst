@@ -1,10 +1,10 @@
 :author: Min Ragan-Kelley
 :email: minrk@berkeley.edu
-:institution: UC Berkeley
+:institution: University of California, Berkeley
 
 :author: John Verboncoeur
 :email: johnv@nuc.berkeley.edu
-:institution: UC Berkeley
+:institution: University of California, Berkeley
 
 =================================================================
 A Programmatic Interface for Particle Plasma Simulation in Python

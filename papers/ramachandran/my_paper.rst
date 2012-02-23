@@ -4,7 +4,7 @@
 
 :author: Chandrashekhar Kaushik
 :email: shekhar@zeusnumerix.com
-:institution: IIT Bombay.
+:institution: IIT Bombay
 
 
 --------------------------------------------------------------
